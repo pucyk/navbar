@@ -1,7 +1,35 @@
 body {
-  background-color: grey;
   color: white;
   text-align: center;
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+li {
+	float: left;
+	width:100px;
+	list-style: none;
+	border: 1px solid none;
+	border-collapse: collapse;
+	border-radius: 5px;
+	filter: drop-shadow(5px 5px 6px rgba(0,0,0,0.8));
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+}
+li:hover {
+	background-color: rgba(0,0,0, 0.5);
+}
+div {
+	background-color: blue;
+	padding: 10px;
+	display: flex;
+	justify-content: left;
+}
+h1 {
+	width: 30%;
+	margin: 0;
+}
+ul {
+	width: 70%;
+	margin: 0;
 }
