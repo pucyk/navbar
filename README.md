@@ -1,1 +1,1 @@
-Kod twrzący navbar
+Kod navbar
